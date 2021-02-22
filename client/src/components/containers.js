@@ -1,7 +1,7 @@
 import React from "react";
 
     
-const Container = () => {
+const Containers = () => {
     return ( 
 
         <h3> this is a container element</h3>
@@ -10,4 +10,4 @@ const Container = () => {
 }
 
 
-export default Container;
+export default Containers;

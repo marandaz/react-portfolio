@@ -8,24 +8,12 @@ function Nav() {
     return (
         <Nav className="justify-content-end" activeKey="/home">
             <Nav.Item>
-            <Link
-                    to="/portfolio-react/about"
-                    className={location.pathname === "/react-portfolio/about" ? "nav-link active" : "nav-link"}
-                >
-            </Link>
+                <Link
+                    to="/react-portfolio/about" className={location.pathname === "/react-portfolio/about" ? "nav-link active" : "nav-link"} >
+                </Link>
             </Nav.Item>
-            {/* <Nav.Item>
-                <Nav.Link 
-                    eventKey="link-1">
-                        Link
-                </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link 
-                    eventKey="link-2">
-                        Link
-                </Nav.Link>
-            </Nav.Item> */}
+
+    
         </Nav>
     );
 }
