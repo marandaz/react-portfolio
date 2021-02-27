@@ -5,6 +5,10 @@ function Resume() {
         <div>
             <h1>
                 Resume Page
+                <p>
+
+                A link to a PDF of your resume with updated projects
+                </p>
             </h1>
         </div>
     );
