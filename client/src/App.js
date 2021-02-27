@@ -6,19 +6,20 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Footer from "./components/footer";
+import Container from "./components/container";
 
 function App() {
   return (
     <Router>
       <>
-        <div>
+        <Container>
           <NavTabs />
           {/* <Route exact path="/react-portfolio" component={Home} /> */}
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
           <Route path="/portfolio" component={Resume} />
           <Footer /> 
-        </div> 
+        </Container> 
       </>
     </Router>
   );
