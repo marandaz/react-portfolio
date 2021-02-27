@@ -1,13 +1,9 @@
 import React from "react";
 
     
-const Containers = () => {
-    return ( 
-
-        <h3> this is a container element</h3>
-
-     );
-}
+function Container(props) {
+    return <div className={`container${props.fluid ? "-fluid" : ""}`} {...props} />
+};
 
 
-export default Containers;
+export default Container;
