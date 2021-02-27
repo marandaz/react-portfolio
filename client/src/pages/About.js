@@ -1,5 +1,4 @@
 import React from "react";
-import List from "../components/skillList";
 
 function About() {
       return (
