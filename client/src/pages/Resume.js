@@ -1,18 +1,17 @@
 import React from "react";
 
 function Resume() {
-    return (  
-        <div>
-            <h1>
-                Resume Page
-                <p>
-
-                A link to a PDF of your resume with updated projects
-                </p>
-            </h1>
-        </div>
-    );
-}
- 
+    return (
+        <div >
+            <div>
+                <a href="./../public/Maranda.pdf" download>
+                    <img src="./Maranda.png" alt="Marandas resume" />
+                    <br />
+                    Download Here
+                </a>
+            </div>
+        </div >
+    )
+};
 
 export default Resume;

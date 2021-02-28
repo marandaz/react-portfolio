@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("../src/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.card {
+  border: 0;
+  background-color: rgb(50,89,105);
+  opacity: .85;
+}
+
+
+a {
+  color: rgb(93,117,121)!important;
+}
+
+
+footer {
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
