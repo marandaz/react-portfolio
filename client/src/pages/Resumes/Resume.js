@@ -1,6 +1,6 @@
 import React from "react";
-// import Resumepdf from "../../../public";
-// import resumeimg from ".";
+import Resumepdf from "./Resume";
+import resumeimg from "./Resume";
 
 function Resume() {
     return (
@@ -8,11 +8,14 @@ function Resume() {
             <div>
                 <a 
                     id="resumeLink"
-                    // href="./Resumepdf.pdf"
-                    // target="_blank"
+                    href={Resumepdf}
+                    target="_blank"
                     alt="Marandas resume" 
                 > Download Here </a>
-                <img id="resumeimage" src="./resumeimg.img"></img>
+                
+            </div>
+            <div className="row" id="resumeDiv" >
+                <img id="resumeimage" src={resumeimg} alt="maranda resume"></img>
             </div>
         </div>
     )
