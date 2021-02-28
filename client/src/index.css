@@ -8,6 +8,7 @@ body {
   background-image: url("../src/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin-bottom: 60px
 }
 
 
