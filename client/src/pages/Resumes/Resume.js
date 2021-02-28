@@ -8,13 +8,10 @@ function Resume() {
             <div>
                 <a 
                     id="resumeLink"
-                    href="./Resumepdf.pdf"
+                    // href="./Resumepdf.pdf"
                     // target="_blank"
                     alt="Marandas resume" 
                 > Download Here </a>
-                
-            </div>
-            <div className="row">
                 <img id="resumeimage" src="./resumeimg.img"></img>
             </div>
         </div>
