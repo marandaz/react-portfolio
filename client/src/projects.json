@@ -4,7 +4,7 @@
         "_id ": 1,
         "title": "Budget Tracker",
         "about": "A budget tracking application that allows a user to save transactions while offline, made with Node, Express, and NoSQL.",
-        "thumbnail": "./images/budget-tracker",
+        "thumbnail": "./budget-tracker.png",
         "deployment": "https://stark-wildwood-12557.herokuapp.com/",
         "repo": "https://github.com/marandaz/budget-tracker"
       },
@@ -12,7 +12,7 @@
         "_id ": 2,
         "title": "Fitness Tracker",
         "about": "A fitness tracking application made with Node, Express, MongoDB and mongoose",
-        "thumbnail": "./images/Fitness-tracker.png",
+        "thumbnail": "Fitness-tracker.png",
         "deployment": "https://floating-depths-72079.herokuapp.com/",
         "repo": "https://github.com/marandaz/fitnessTracker"
       },
@@ -20,7 +20,7 @@
         "_id ": 3,
         "title": "Employee Tracker",
         "about": "A command line CMS application to manage employees using Node, MySQL and Inquirer.",
-        "thumbnail": "./images/Employee-tracker.png",
+        "thumbnail": "/Employee-tracker.png",
         "deployment": "https://github.com/marandaz/employee-tracker#about-the-project",
         "repo": "https://github.com/marandaz/employee-tracker"
       },
@@ -28,7 +28,7 @@
         "_id ": 4,
         "title": "Burger",
         "about": "A burger logging application made with JS, MySQL, Node, Express, Handlebars and a homemade ORM",
-        "thumbnail": "./images/Burger.png",
+        "thumbnail": "./Burger.png",
         "deployment": "https://eat-da-burger-2021.herokuapp.com/",
         "repo": "https://github.com/marandaz/burger"
       },
@@ -36,7 +36,7 @@
         "_id ": 5,
         "title": "Note Taker",
         "about": "A frontend application that allows a user to create, save and delete notes; made with Node, FS, and Express",
-        "thumbnail": "./images/Note-taker.png",
+        "thumbnail": "./Note-taker.png",
         "deployment": "https://github.com/marandaz/note-taker#usage",
         "repo": "https://github.com/marandaz/note-taker"
       },
@@ -44,7 +44,7 @@
         "_id ": 6,
         "title": "the Hungry App",
         "about": "Front end application that uses Spoonacular API and Random Joke API calls to allow user to search recipes by ingredients while getting a joke.",
-        "thumbnail": "./images/Hungry-app.png",
+        "thumbnail": "./Hungry-app.png",
         "deployment": "https://marandaz.github.io/the-hungry-app-proj1/",
         "repo": "https://github.com/marandaz/the-hungry-app-proj1"
       }

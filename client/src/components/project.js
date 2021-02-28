@@ -5,7 +5,7 @@ import projects from "../projects.json";
 function ProjectItem() {
     const projectDisplay = projects.project.map((item) =>
     <div className="card col-md-3 mb-4 mx-2 bg-dark text-white" key={item.title}>
-     <img src={item.thumbnail}  alt={item.title} />
+     <img src={process.env.PUBLIC_URL + '/' + item.thumbnail}  alt={item.title} />
     <div>
         <h5 > {item.title}</h5>
         <p > {item.about}</p>
