@@ -22,6 +22,7 @@ This is a react-based portfolio; built with react, bootstrap, and JS.
 ![Screen Shot 2021-03-01 at 8 52 08 PM](https://user-images.githubusercontent.com/41016364/109589549-1a6bf100-7ad0-11eb-92ec-867ce8144ef5.png)
 ![Screen Shot 2021-03-01 at 8 52 25 PM](https://user-images.githubusercontent.com/41016364/109589557-1cce4b00-7ad0-11eb-83cb-5a46ba5f2ae4.png)
 
+https://user-images.githubusercontent.com/41016364/109591336-f362ee80-7ad2-11eb-84e8-9011622f4910.mov
 
 
 ## Getting Started
